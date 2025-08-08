@@ -36,6 +36,7 @@ function MeetingRoom() {
     );
   }
 
+  
   return (
     <div className="h-[calc(100vh-4rem-1px)]">
       <ResizablePanelGroup direction="horizontal">
