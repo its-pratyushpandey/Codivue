@@ -43,6 +43,7 @@ function RecordingCard({ recording }: { recording: CallRecording }) {
         </div>
       </CardHeader>
 
+      
       {/* CARD CONTENT */}
 
       <CardContent>
