@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { useUser } from "@clerk/nextjs";
 import { Call, useStreamVideoClient } from "@stream-io/video-react-sdk";
 
+
+
 const useGetCalls = () => {
   const { user } = useUser();
   const client = useStreamVideoClient();
