@@ -7,6 +7,7 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
+
 type Interview = Doc<"interviews">;
 type User = Doc<"users">;
 
