@@ -9,6 +9,7 @@ export const INTERVIEW_CATEGORY = [
 
 
 
+
 export const TIME_SLOTS = [
   "09:00",
   "09:30",
