@@ -14,6 +14,7 @@ export const streamTokenProvider = async () => {
     process.env.NEXT_PUBLIC_STREAM_API_KEY!,
     process.env.STREAM_SECRET_KEY!
   );
+  
 
   const token = streamClient.generateUserToken({ user_id: user.id });
 
