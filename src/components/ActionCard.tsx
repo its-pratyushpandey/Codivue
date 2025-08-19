@@ -2,6 +2,7 @@ import { QuickActionType } from "@/constants";
 import { Card } from "./ui/card";
 
 
+
 // some weird tw bug, but this is how it works
 // from-orange-500/10 via-orange-500/5 to-transparent
 // from-blue-500/10 via-blue-500/5 to-transparent
