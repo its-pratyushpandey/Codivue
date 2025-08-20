@@ -6,7 +6,6 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from ".
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { AlertCircleIcon, BookIcon, LightbulbIcon } from "lucide-react";
 import Editor from "@monaco-editor/react";
-
 function CodeEditor() {
   const [selectedQuestion, setSelectedQuestion] = useState(CODING_QUESTIONS[0]);
   const [language, setLanguage] = useState<"javascript" | "python" | "java">(LANGUAGES[0].id);
