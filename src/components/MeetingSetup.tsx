@@ -16,7 +16,6 @@ function MeetingSetup({ onSetupComplete }: { onSetupComplete: () => void }) {
     if (isCameraDisabled) call.camera.disable();
     else call.camera.enable();
   }, [isCameraDisabled, call.camera]);
-
   useEffect(() => {
     if (isMicDisabled) call.microphone.disable();
     else call.microphone.enable();
