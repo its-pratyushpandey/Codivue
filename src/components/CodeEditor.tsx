@@ -16,7 +16,6 @@ function CodeEditor() {
     setSelectedQuestion(question);
     setCode(question.starterCode[language]);
   };
-
   const handleLanguageChange = (newLanguage: "javascript" | "python" | "java") => {
     setLanguage(newLanguage);
     setCode(selectedQuestion.starterCode[newLanguage]);
