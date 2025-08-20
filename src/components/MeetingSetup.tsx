@@ -10,7 +10,6 @@ function MeetingSetup({ onSetupComplete }: { onSetupComplete: () => void }) {
   const [isMicDisabled, setIsMicDisabled] = useState(false);
 
   const call = useCall();
-
   if (!call) return null;
 
   useEffect(() => {
