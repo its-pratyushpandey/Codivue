@@ -5,7 +5,6 @@ export default async function middleware(req: NextRequest, ev: NextFetchEvent) {
   console.log("Middleware executed for:", req.url);
   return clerkMiddleware()(req, ev);
 }
-
 export const config = {
   matcher: [
     // Skip Next.js internals and all static files, unless found in search params
