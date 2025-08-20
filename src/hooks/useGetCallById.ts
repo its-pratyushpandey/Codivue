@@ -6,7 +6,6 @@ const useGetCallById = (id: string | string[]) => {
   const [isCallLoading, setIsCallLoading] = useState(true);
 
   const client = useStreamVideoClient();
-
   useEffect(() => {
     if (!client) return;
 
