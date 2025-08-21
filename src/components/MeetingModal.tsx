@@ -10,7 +10,6 @@ interface MeetingModalProps {
   title: string;
   isJoinMeeting: boolean;
 }
-
 function MeetingModal({ isOpen, onClose, title, isJoinMeeting }: MeetingModalProps) {
   const [meetingUrl, setMeetingUrl] = useState("");
   const { createInstantMeeting, joinMeeting } = useMeetingActions();
