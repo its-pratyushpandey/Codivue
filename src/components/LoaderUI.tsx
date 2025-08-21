@@ -1,5 +1,4 @@
 import { LoaderIcon } from "lucide-react";
-
 function LoaderUI() {
   // h-16 + 1 for border in navbar => 65px
   return (
