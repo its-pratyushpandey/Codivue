@@ -8,9 +8,6 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 
-
-
-
 type Interview = Doc<"interviews">;
 type User = Doc<"users">;
 
