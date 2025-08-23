@@ -1,6 +1,5 @@
 import { clerkMiddleware } from "@clerk/nextjs/server";
 import type { NextRequest, NextFetchEvent } from "next/server";
-
 export default async function middleware(req: NextRequest, ev: NextFetchEvent) {
   console.log("Middleware executed for:", req.url);
   return clerkMiddleware()(req, ev);
