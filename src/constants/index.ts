@@ -7,9 +7,6 @@ export const INTERVIEW_CATEGORY = [
   { id: "failed", title: "Failed", variant: "destructive" },
 ] as const;
 
-
-
-
 export const TIME_SLOTS = [
   "09:00",
   "09:30",
