@@ -9,6 +9,7 @@ import { Button } from "./ui/button";
 
 type Interview = Doc<"interviews">;
 
+
 function MeetingCard({ interview }: { interview: Interview }) {
   const { joinMeeting } = useMeetingActions();
 
